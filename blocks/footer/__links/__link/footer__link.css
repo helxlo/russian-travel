@@ -8,7 +8,7 @@
 
 .footer__link:hover {
     opacity: 80%;
-    cursor: url(../../../../../images/Pointer.svg), auto;
+    cursor: url(../../../../images/Pointer.svg), auto;
 }
 
 @media screen and (max-width: 768px) {

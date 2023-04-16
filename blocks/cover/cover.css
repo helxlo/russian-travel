@@ -1,7 +1,7 @@
 .cover {
     margin: 44px 48px 92px 48px;
     display: flex;
-    background-image: url(../../../../images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.jpg);
     background-size: contain;
     position: relative;
 }
@@ -12,6 +12,7 @@
     height: 0;
     margin-left: -1px;
     padding-top: calc(740 / 1184 * 100%);
+    cursor: url(../../images/Pointer.svg), auto;
 }
 
 @media screen and (max-width: 1024px) {
