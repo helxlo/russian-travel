@@ -1,5 +1,6 @@
 .places {
     display: grid;
+    gap: 80px;
     max-width: 984px;
     margin: 0 auto;
     padding: 0;
@@ -8,15 +9,22 @@
 @media screen and (max-width: 1024px) {
 
     .places {
-        margin: 92px 48px;
+        margin: 0 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .places {
-        row-gap: 32px;
-        margin: 0;
+        gap: 73px;
+        margin: 88px 24px 90px 24px;
     }
 
+}
+
+@media screen and (max-width: 700px) {
+    .places {
+        gap: 50px;
+        margin: 0;
+    }
 }
