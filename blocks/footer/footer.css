@@ -4,11 +4,17 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0 24px 24px 24px;
+    }
+}
 
-@media screen and (max-width: 765px) {
+
+@media screen and (max-width: 700px) {
 
     .footer {
-        margin: 64px 118px 24px 16px;
+        margin: 67px 118px 21px 16px;
         flex-direction: column;
 
     }
